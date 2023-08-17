@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.button {
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
